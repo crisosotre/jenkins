@@ -21,7 +21,6 @@ public class SumaTest {
 	   @Test
 	   public void sumaNegativos() {
 		   log.info("Inicio proceso para sumar dos numeros negativos");
-	       System.out.println("Sumando dos números negativos ...");
 	       Suma S = new Suma(-2, -3);
 	       assertTrue(S.sumar() == -5);
 	       log.info("Finalizó proceso para sumar dos numeros negativos");
@@ -30,7 +29,6 @@ public class SumaTest {
 	   @Test
 	   public void sumaPositivoNegativo() {
 		   log.info("Inició proceso para sumar dos numeros negativo y positivo");
-	       System.out.println("Sumando un número positivo y un número negativo ...");
 	       Suma S = new Suma(2, -3);
 	       assertTrue(S.sumar() == -1);
 	       log.info("Finalizó proceso para sumar dos numeros negativo y positivo");
