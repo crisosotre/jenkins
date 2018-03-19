@@ -30,7 +30,7 @@ public class RestaTest {
 	public void restaPositivoNegativo() {
 		  log.info("Inició proceso para restar dos numeros negativo y positivo");
 		  Resta R = new Resta(-5,3);
-		  assertTrue(R.restar() == -6);
+		  assertTrue(R.restar() == -8);
 		  log.info("Finalizó proceso para restar dos numeros negativo y positivo");
 	}
 }
