@@ -11,7 +11,7 @@ public class Suma {
 	}
 
 	public int sumar() {
-		int resultado = num1 - num2;
+		int resultado = num1 + num2;
 		return resultado;
 	}
 }
